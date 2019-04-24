@@ -24,4 +24,4 @@ Key Information
 * Mathematical Documentation: [Open Risk Manual](https://www.openriskmanual.org/wiki/Credit_Network)
 * Development website: [Github](https://github.com/open-risk/creditNet)
 
-**NB: creditNet is still in early alpha is actively developed. Presently the framework is released as a Docker container
+**NB: creditNet is still in early alpha is actively developed. Presently the framework is released as a Docker container**
