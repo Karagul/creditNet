@@ -25,3 +25,8 @@ Key Information
 * Development website: [Github](https://github.com/open-risk/creditNet)
 
 **NB: creditNet is still in early alpha is actively developed. Presently the framework is released as a Docker container**
+
+Download
+==========
+
+* Docker [Repository](https://hub.docker.com/u/openrisk)
