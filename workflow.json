@@ -1,0 +1,70 @@
+{
+    "input_set": {
+        "BaseAPIURL": "./",
+        "CorrelationURL": "Data/correlation_data.json",
+        "Liability_data_mode": 0,
+        "LoadingsURL": "Data/correlation_data.json",
+        "Model_data_mode": 1,
+        "PortfolioURL": "Data/synthetic_data.json",
+        "Portfolio_data_mode": 2,
+        "ScenarioDataURL": "Data/scenario_data.json",
+        "Single_asset_flag": true,
+        "ThresholdDataURL": "Data/threshold_data.json",
+        "TransitionDataURL": "Data/transition_data.json"
+    },
+    "model_configuration": {
+        "Analytic_Tests": 1,
+        "Assets": 6,
+        "BranchScenarios": 1,
+        "CalculationHorizon": 1,
+        "CorrelationMethod": 0,
+        "DefaultOnly": false,
+        "EquityCapital": 0.3,
+        "FactorScenarios": 1,
+        "Factors": 3,
+        "Interval": 0,
+        "LGDMethod": 0,
+        "LiabilityMethod": 0,
+        "MacroScenarios": 1000,
+        "MaturityMethod": 0,
+        "ModelMethod": 0,
+        "Order": 0,
+        "PortfolioScenarios": 10,
+        "RatingPeriods": 10,
+        "Ratings": 8,
+        "Resolution": 1000,
+        "RiskHorizon": 1,
+        "ScenarioMethod": 1,
+        "ScenarioPeriods": 1,
+        "StageGap": 1,
+        "pAssets": 0
+    },
+    "model_data": {
+        "AR Model Data": {
+            "Initial Conditions": [
+                0,
+                0
+            ],
+            "Offset": 0.0,
+            "Phi": [
+                0.0
+            ]
+        },
+        "Correlation": 0.25
+    },
+    "output_set": {
+        "Reporting_mode": 0,
+        "Results_list": [
+            4
+        ],
+        "Results_url": "Logs/output.json",
+        "Scenario_output": 0,
+        "Verbose_Level": 2
+    },
+    "portfolio_data": null,
+    "remote_model_url": "http://192.168.2.4:8080/cgi-bin/scenarioengine.cgi",
+    "run_level": 2,
+    "workflow_description": "Dry Run Workflow of Docker Distribution (0.4.1)",
+    "workflow_id": 38,
+    "workflow_status": "Draft"
+}

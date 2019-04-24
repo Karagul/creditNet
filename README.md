@@ -20,8 +20,8 @@ Key Information
 
 * Author: [Open Risk](http://www.openriskmanagement.com)
 * License: Apache 2.0
-* Code Documentation: Coming
-* Mathematical Documentation: [Open Risk Manual](https://www.openriskmanual.org/wiki/Credit_Network)
+* Code Documentation: Coming!
+* Mathematical Documentation: [Open Risk Manual](https://www.openriskmanual.org/wiki/Category:Credit_Network)
 * Development website: [Github](https://github.com/open-risk/creditNet)
 
 **NB: creditNet is still in early alpha is actively developed. Presently the framework is released as a Docker container**
@@ -30,3 +30,10 @@ Download
 ==========
 
 * Docker [Repository](https://hub.docker.com/u/openrisk)
+
+
+Test
+======
+
+* docker run -p 888:80 openrisk/creditnet:version0.4.1
+* curl -k  -X POST -d @workflow.json http://localhost:888/cgi-bin/creditNet
